@@ -8,7 +8,7 @@ const checkPalindrome = (input: any): boolean => {
     return true;
 };
 
-console.log(checkPalindrome('abbaabba'));
-console.log(checkPalindrome('abbactie'));
-console.log(checkPalindrome(3556));
-console.log(checkPalindrome(246642));
+console.log(checkPalindrome('abbaabba')); // True
+console.log(checkPalindrome('abbactie')); // False
+console.log(checkPalindrome(3556)); // False
+console.log(checkPalindrome(246642)); // True
